@@ -1,0 +1,55 @@
+.main{
+    background-image:url("C:\Users\91709\Desktop\react\Netflix_Ui\src\assets\img\newbackground.jpg");
+}
+.text{
+    height: 78vh;
+  }
+.text p{
+    font-size: 1.25rem;
+    line-height: 2.55rem;
+}
+.text h2{
+    font-size: 3rem;
+    line-height: 2;
+}
+.login{
+    margin-top: 15px;
+}
+.form input{
+        width: 18vw;
+        border: 2px solid;
+        margin-right: 10px;     
+}
+.seperation{
+    width:100%;
+    background-color: white;
+    height:10px;
+}
+
+.first{
+  max-width: 80vw;
+}
+.txt-first h2{
+  font-size: 3rem;
+}
+.txt-first p{
+  font-size: 1.5rem;
+}
+.img-first img {
+  width: 450px;
+  z-index: 1;
+}
+.img-second img {
+  width:650px;
+}
+.second{
+  height:480px;
+}
+.txt-first {
+  padding: 35px;
+}
+
+
+
+
+
