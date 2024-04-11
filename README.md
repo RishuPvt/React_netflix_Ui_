@@ -1,7 +1,7 @@
 <h1 align="center">Vite-React_ Netflix-Ui-Clone</h1>
 <h3 align="center">This GitHub repository contains a clone of the Netflix user interface, built using React.js , Tailwind. The aim of this project is to replicate the look and feel of the Netflix website, providing a responsive and interactive user experience similar to the original platform. </h3>
 
-- 👨‍💻 All of my projects are available at [my GitHub Account](my GitHub Account)
+- 👨‍💻 All of my projects are available at RishuPvt(my GitHub Account)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
