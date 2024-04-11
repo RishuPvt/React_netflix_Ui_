@@ -10,7 +10,7 @@ function Section({titlechange,parachange,url}) {
             <p className='.span font-normal'>{parachange}</p>
         </div>
         <div className='img-first relative'>
-            <img className='relative' src={url} alt='img'></img>
+            <img className='relative z-10' src={url} alt='img'></img>
             <video className='' src=""  muted  autoPlay loop></video>
         </div>
         </div>

@@ -7,6 +7,7 @@ import Nav from "./Nav";
 import Section from "./Section";
 import Section2 from "./section2";
 import Seperation from "./Seperation";
+import Section3 from "./section3";
 function App() {
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
       <Seperation />
       <Section2 url={childrenimg} titlechange="Create profiles for kids" parachange="Send children on adventures with their favourite characters in a space made just for them—free with your membership." />
       <Seperation />
-    
+      <Section3 />
     </>
   );
 }

@@ -5,7 +5,7 @@ function section2({url,parachange,titlechange}) {
     <>
     <div className='second flex justify-center'>
     <div className='first flex items-center justify-center m-6'>
-        <div className='img-second relative'>
+        <div className='img-first p-8 relative'>
         <img className='' src={url} alt='image'>
         </img>
         </div>
