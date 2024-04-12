@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-function Section({ titlechange, parachange, url,link }) {
+function Section4({ titlechange, parachange, url,link }) {
   return (
     <>
       <div className="third flex justify-center ">
@@ -9,9 +9,9 @@ function Section({ titlechange, parachange, url,link }) {
             <h2 className="font-bold">{titlechange}</h2>
             <p className=".span font-normal">{parachange}</p>
           </div>
-          <div className="img-first relative">
+          <div className="img-second relative">
             <img className="relative z-10 w-[450px]" src={url} alt="img"></img>
-            <video className="absolute top-[58px] w-[265px] right-[52px]" src={link} muted autoPlay loop></video>
+            <video className="absolute top-[25px] w-[255px] right-[71px]" src={link} muted autoPlay loop></video>
           </div>
         </div>
       </div>
@@ -19,4 +19,4 @@ function Section({ titlechange, parachange, url,link }) {
   );
 }
 
-export default Section;
+export default Section4;

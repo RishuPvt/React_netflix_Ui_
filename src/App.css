@@ -21,12 +21,6 @@
 .txt-first p {
   font-size: 1.5rem;
 }
-.img-first img {
-  width: 450px;
-}
-.second {
-  height: 480px;
-}
 .footer {
   max-width: 80vw;
   margin: auto;
@@ -37,6 +31,9 @@
 }
 .span {
   margin: 25px 0px;
+}
+.second , .third{
+  height:480px;
 }
 @media screen and (max-width: 1110px) {
   .first {
@@ -53,5 +50,14 @@
   }
   .second {
     height: 800px;
+  }
+  .third {
+    height:660px;
+  }
+  .img-second video{
+    position:absolute;
+    top: 25px;
+    width: 220px;
+    right: 75px;
   }
 }
