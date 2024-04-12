@@ -1,70 +1,57 @@
-.main{
-    background-image:url("C:\Users\91709\Desktop\react\Netflix_Ui\src\assets\img\newbackground.jpg");
+.main {
+  background-image: url("C:\Users\91709\Desktop\react\Netflix_Ui\src\assets\img\newbackground.jpg");
 }
-.text p{
-    font-size: 1.25rem;
-    line-height: 2.55rem;
+.text p {
+  font-size: 1.25rem;
+  line-height: 2.55rem;
 }
-.text h2{
-    font-size: 3rem;
-    line-height: 2;
+.text h2 {
+  font-size: 3rem;
+  line-height: 2;
 }
-.form input{
-        width: 18vw;
+.form input {
+  width: 18vw;
 }
-.first{
+.first {
   max-width: 80vw;
 }
-.txt-first h2{
+.txt-first h2 {
   font-size: 3rem;
 }
-.txt-first p{
+.txt-first p {
   font-size: 1.5rem;
 }
 .img-first img {
   width: 450px;
 }
-.second{
-  height:480px;
+.second {
+  height: 480px;
 }
-
-
-
-
-
 .footer {
   max-width: 80vw;
   margin: auto;
   padding: 50px 0;
 }
-
 .footer2 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .span {
   margin: 25px 0px;
 }
-
-
 @media screen and (max-width: 1110px) {
- 
   .first {
-      flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+  }
   .form input {
     width: 50vw;
   }
-  .box2{
+  .box2 {
     flex-direction: column;
   }
-  .btn2{
+  .btn2 {
     margin-top: 8px;
   }
-  .second{
-    height:800px;
+  .second {
+    height: 800px;
   }
-  }
-
-
-
-
+}

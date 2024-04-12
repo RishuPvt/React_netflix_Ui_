@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import netflix from "./assets/img/netflix-logo.png"
+import netflix from "./assets/img/netflix-logo.png";
 const Nav = () => {
   console.log(netflix);
   return (
@@ -9,10 +9,7 @@ const Nav = () => {
         <div className="flex justify-between h-16 items-center max-w-screen-xl mx-auto w-80vw mx-auto z-10 relative">
           <span>
             {" "}
-           <img className="z-10 relative w-40"
-              src={netflix}
-              alt="logo"
-            />
+            <img className="z-10 relative w-40" src={netflix} alt="logo" />
           </span>
           <div>
             <button className="m-1.5  w-20 bg-red-600 rounded">HINDI</button>
@@ -31,7 +28,11 @@ const Nav = () => {
           </p>
           <div className="box2 mt-3.5 flex justify-center items-center">
             <form className="form">
-              <input className=" mr-2.5 border-2 border-black p-3 font-bold opacity-50" type="text" placeholder="Enter E-Mail"></input>
+              <input
+                className=" mr-2.5 border-2 border-black p-3 font-bold opacity-50"
+                type="text"
+                placeholder="Enter E-Mail"
+              ></input>
             </form>
             <button className=" btn2 w-32 p-2.5 p-3.5 rounded font-semibold bg-red-600">
               Get started
