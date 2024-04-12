@@ -22,7 +22,7 @@ function Section3() {
 
           <div className=" flex flex-col gap-2.5">
             <a href="Contact Us">Contact Us</a>
-            <a href="Terms of Use">Terms of Use</a>
+            <a href="Terms of Use">Terms and condition of Use</a>
             <a href="Media Center">Media Center</a>
             <a href="Only on Netflix">Only on Netflix</a>
           </div>
